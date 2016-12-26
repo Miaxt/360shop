@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="../css/pay.css" />
+		<link rel="stylesheet" type="text/css" href="../css/common/common.css" />
+	    <link rel="stylesheet" href="../css/common/header.css" />
+	    <link rel="stylesheet" type="text/css" href="../css/common/footer.css"/>
+	    <link rel="stylesheet" type="text/css" href="../css/login.css"/>
+	    <link rel="stylesheet" type="text/css" href="../css/regist.css"/>
+	    <link rel="stylesheet" type="text/css" href="../css/common/nav.css"/>
+	</head>
+
+	<body>
+		<!--头部位置-->
+		<div id="header">
+			
+		</div>
+		<!--pay页面主体-->
+		<div class="content mall_head">
+			<div class="mall_cont">
+				<div class="mall_modw">
+					<div class="hd">
+						<h3>收货地址</h3> <span style="color:red;font-size:14px;padding:10px">温馨提示：为了保证您的权益，防止黄牛倒卖，订单进入正在配货状态将不能修改收货地址和发票信息！</span></div>
+					<div class="bd">
+						<div class="consigneeinfo addr-box">
+							<p id="addressUpdate" style="color:red;display:none;padding:10px">尊敬的用户，由于地址库更新，为提高物流效率，建议您尽快升级您的收货地址！</p>
+							<div class="mod-consignee-info" data-token="72c5ed">
+								<div class="consignee-blank" style="display:block">
+									<input type="hidden" name="consignee_realname" value="">
+									<input type="hidden" name="consignee_mobile" value=""> 
+									<input type="hidden" name="consignee_province" value=""> 
+									<input type="hidden" name="consignee_city" value=""> 
+									<input type="hidden" name="consignee_county" value=""> 
+									<input type="hidden" name="consignee_address" value="">
+									<input type="hidden" name="consignee_postcode" value=""> 
+									<span class="item-action"> 
+									<a href="javascript:;" class="action-edit" title="编辑" data-monitor="user_address_editor">编辑</a>  
+									</span> 
+									<i class="input-radio-view"></i> 
+									<input class="input-radio" type="radio" name="consignee_radio" value="">
+									<label>lin </label>						
+								</div>
+								
+								<a class="consignee-btn-add" href="javascript:;" title="添加新地址" data-monitor="user_address_add"></a>
+								<div class="consignee-add" style="">
+									<form>
+										<div class="add-row"> <label class="consignee-add-label" for="consignee_add_realname"> <b>*</b>收货人姓名 </label> <input name="consignee_add_realname" type="text" class="consignee-add-text" placeholder="收货人姓名"> </div>
+										<div class="add-row m-t-10"> <label class="consignee-add-label" for="consignee_add_province"><b>*</b>地址</label>
+											<div id="city">  
+												<select class="consignee-add-select prov" name="consignee_add_province">	
+												</select>
+												<select class="consignee-add-select city" name="consignee_add_city">
+													<option value="-1">请选择</option>
+												</select>
+												<select class="consignee-add-select city" name="consignee_add_county">
+													<option value="-1">请选择</option>
+												</select> 																		
+											</div>
+											<textarea class="consignee-add-address" name="consignee_add_address" placeholder="路名或街道地址，门牌号"></textarea> </div>
+										<div class="add-row m-t-10"> <label class="consignee-add-label" for="consignee_add_postcode">邮政编码</label> <input name="consignee_add_postcode" type="text" class="consignee-add-text" placeholder="6位邮政编码" onkeyup="this.value=this.value.replace(/\D/g,'')" onafterpaste="this.value=this.value.replace(/\D/g,'')" maxlength="6"> </div>
+										<div class="add-row m-t-10"> <label class="consignee-add-label" for="consignee_add_mobile"> <b>*</b>手机号码 </label> <input name="consignee_add_mobile" type="text" class="consignee-add-text" placeholder="11位手机号"> </div> <input type="hidden" name="consignee_add_addr_id" value="">
+										<div class="add-row m-t-10">
+											<p class="m-t-20">
+												<a href="javascript:;" id="consigneeAddBtn" class="mod-btn-green">保存</a>
+												<a href="javascript:;" id="consigneeCancelBtn" class="mod-btn-gray">取消</a>
+											</p>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mall_modw">
+					<div class="hd">
+						<h3>支付方式</h3></div>
+					<div class="bd">
+						<div class="onlinePay">
+							<div class="formEle">
+								<div class="eleRadio"> <span class="rd rdc"></span><input type="radio" checked="" name="payment" class="hookbox ip" value="在线支付"> <label>在线支付</label></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mall_modw">
+					<div class="hd">
+						<h3>配送方式</h3></div>
+					<div class="bd">
+						<div class="onlinePay">
+							<div class="formEle">
+								<div class="eleRadio"> <span class="rd rdc"></span><input type="radio" checked="" name="mailCharge" class="hookbox ip" value="加配送费0元"> <label>免费配送</label> </div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mall_modw">
+					<div class="hd">
+						<h3>发票信息</h3></div>
+					<div class="bd">
+						<div class="onlinePay">
+							<div class="formEle">
+								<div class="eleRadioa">
+									<div class="eleRadio"> <span class="rd"></span>
+										<input type="radio" id="nInvoice" checked="checked" name="invoice[0]" class="hookbox ip" value="不开发票"> 
+											<label for="#nInvoice">不开发票</label></div>
+									<div class="eleRadio"> 
+										<span class="rd rdc"></span>
+										<input type="radio" name="invoice[0]" id="yInvoice" class="hookbox ip" value="普通发票">
+										<label for="#yInvoice">普通发票</label>
+									</div>
+								</div>
+							</div>
+							<div class="con" style="display: block;">
+								<div class="txt">发票内容：购买商品明细</div>
+								<div class="txt">发票抬头：请确认单位名称正确，以免因名称错误耽搁您的报销。</div>
+								<div class="sltcate">
+									<a href="javascript:void(0);" id="sltcate_person" class="selected" data-monitor="gotoorder_invoice_personal">个人</a>
+									<a href="javascript:void(0);" id="sltcate_company" data-monitor="gotoorder_invoice_unit">单位</a>
+								</div>
+								<div class="invoiceInfo">
+									<div class="txt">单位名称：</div> <input type="text" id="companyName" maxlength="30"> <span class="company_empty" style="color:red;display:none;font-size:13px;padding-left:10px">单位名称不能为空</span></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mall_modw">
+					<div class="hd nobdr">
+						<h3>商品清单</h3></div>
+					<div class="bd">
+						<div class="goodList">
+							<div class="title">
+								<div class="t1">商品名称</div>
+								<div class="t2">单价</div>
+								<div class="t3">数量</div>
+								<div class="t4">合计</div>
+							</div>
+							<div class="cont">
+								<ul>
+									<li data-item_id="" item_id="" item_count="" item_total="" class="nomgr">
+									</li>
+								</ul>
+							</div>
+							<div class="total" style="visibility: visible;">
+								<ul>
+									<li>共<span id="gCount">1</span>件 </li>
+									<li id="zCount">金额合计：599.00元</li>
+									<li id="zDiscount">优惠抵扣：-0.00元 </li>
+									<li id="zExpressFee">配送费：0元 </li>
+									<li class="bold">应付总额：<span id="tatalCount">599.00</span>元</li>
+								</ul>
+							</div>
+							<div class="gotoorder-coupon">
+								<div class="gotoorder-coupon-content">
+									<div class="coupontitle">使用优惠码<span style="position:relative"><a class="help-icon"></a> <div class="coupon-help" style="display:block"> <div class="coupon-help-content"> <p>每张订单只能使用一张券，且不能与其他任一优惠券叠加使用。</p></div> <div class="xiasanjiaoborder"></div> <div class="xiasanjiao"></div></div></span> </div>
+									<div id="coupon-use">
+										<div id="coupon1">
+											<div class="coupon-input"> 优惠码：<input type="text" id="couponCode_input"> </div>
+											<p class="buttons">
+												<a class="coupon-btn coupon-btn-reverse" id="coupon-useBtn1" data-monitor="gotoorder_coupon_use">立即使用</a>
+												<a class="coupon-btn coupon-btn-disabed" id="coupon-loadingBtn1" style="display:none">验证中...</a>
+											</p>
+										</div>
+									</div>
+									<div id="coupon-current" style="display:none">
+										<div class="coupon-current">
+											<p>已使用<s></s></p>
+										</div>
+										<p class="buttons">
+											<a class="coupon-btn coupon-btn-reverse" id="coupon-cancelBtn">取消使用</a>
+										</p>
+									</div>
+									<div class="coupon-tips">
+										<p id="coupon-tips"></p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="mailTo">
+							<p> </p>
+						</div>
+						<a href="javascript:void(0);" class="form_btn" id="orderSubmit" title="立即下单" data-monitor="gotoorder_placeorder_click">立即下单</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mod-dialog-bg" style=""></div>
+		<div class="mod-dialog" >
+			<div class="dialog-nav"><span class="dialog-title">提示</span>
+				<a href="#" onclick="return false" class="dialog-close"></a>
+			</div>
+			<div class="dialog-main">
+				<div class="dialog-content">
+					<p></p>
+				</div>
+				<div class="dialog-console clearfix_new">
+					<a class="console-btn-confirm" href="#" onclick="return false;">确定</a>
+				</div>
+			</div>
+		</div>
+		<!--pay页面主体结束-->
+		<!--登录-->
+		<div id="login">
+			
+		</div>
+		<!--注册-->
+		<div id="regist">
+			
+		</div>
+		<!--footer-->
+		<div id="footer">
+			
+		</div>
+		<!--右边导航，返回顶部-->
+		<div id="slidebar">
+			
+		</div>
+		<!--js引用开始-->
+		<script src="../lib/jquery-1.12.3.js"></script>
+		<script src="../lib/jquery.cookie.js"></script>
+		<script src="../lib/jquery.cityselect.js"></script>
+		<script src="../js/common/HTMLload.js"></script>
+		<script>
+			loadHtml("common/header.html", "#header");
+			loadHtml("login.html", "#login");
+			loadHtml("regist.html", "#regist");
+			loadHtml("common/footer.html", "#footer");
+			loadHtml("common/slidebar.html", "#slidebar");
+		</script>		
+		<script src="../js/common/header.js"></script>
+		<script src="../js/common/nav.js"></script>
+		<script src="../js/common/footer.js"></script>
+		<script src="../js/login.js"></script>
+		<script src="../js/regist.js"></script>
+		<script src="../js/pay.js"></script>		
+	</body>
+
+</html>

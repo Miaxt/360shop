@@ -1,0 +1,77 @@
+[
+{
+	"g0": {
+		"id": 0,
+		"title": "360手机 ",
+
+		"pHtml": "<a href=goodDetail.html>360手机Q5</a><span>|</span><a href=goodDetail.html>360手机N4S</a><span>|</span><a href=goodDetail.html>360手机N4</a><span>|</span><a href=goodDetail.html>360手机F4</a><span>|</span><a href=goodDetail.html>10000毫安移动电源</a>",
+		"href": "goodDetail.html"		
+	},
+	"g1": {
+		"id": 0,
+		"title": "手机配件",
+
+		"pHtml": "<a href=goodDetail.html>手机U盘</a><span>|</span><a href=goodDetail.html>蓝牙耳机</a><span>|</span><a href=goodDetail.html>移动电源</a><span>|</span><a href=goodDetail.html>手机镜头</a><span>|</span><a href=goodDetail.html>数据线</a><span>|</span><a href=goodDetail.html>自拍杆</a>",
+		"href": "goodDetail.html"	
+		
+	},
+	"g2": {
+		"id": 0,
+		"title": "智能穿戴 ",
+
+		"pHtml": "<a href=goodDetail.html>360手机Q5</a><span>|</span><a href=goodDetail.html>360手机N4S</a><span>|</span><a href=goodDetail.html>360手机N4</a><span>|</span><a href=goodDetail.html>360手机F4</a><span>|</span><a href=goodDetail.html>10000毫安移动电源</a>",
+		"href": "goodDetail.html"	
+		
+	},
+	"g3": {
+		"id": 0,
+		"title": "智能家居 ",
+		"pHtml": "<a href=goodDetail.html>360手机Q5</a><span>|</span><a href=goodDetail.html>360手机N4S</a><span>|</span><a href=goodDetail.html>360手机N4</a><span>|</span><a href=goodDetail.html>360手机F4</a><span>|</span><a href=goodDetail.html>10000毫安移动电源</a>",
+		"href": "goodDetail.html"	
+	},
+	"g4": {
+		"id": 0,
+		"title": "智能车品 ",
+		
+		"pHtml": "<a href=goodDetail.html>360手机Q5</a><span>|</span><a href=goodDetail.html>360手机N4S</a><span>|</span><a href=goodDetail.html>360手机N4</a><span>|</span><a href=goodDetail.html>360手机F4</a><span>|</span><a href=goodDetail.html>10000毫安移动电源</a>",
+		"href": "goodDetail.html"
+		
+	},
+	"g5": {
+		"id": 0,
+		"title": "影音娱乐 ",
+		
+		"pHtml": "<a href=goodDetail.html>360手机Q5</a><span>|</span><a href=goodDetail.html>360手机N4S</a><span>|</span><a href=goodDetail.html>360手机N4</a><span>|</span><a href=goodDetail.html>360手机F4</a><span>|</span><a href=goodDetail.html>10000毫安移动电源</a>",
+		"href": "goodDetail.html"
+	},
+	"g6": {
+		"id": 0,
+		"title": "电脑/游戏 ",
+		
+		"pHtml": "<a href=goodDetail.html>360手机Q5</a><span>|</span><a href=goodDetail.html>360手机N4S</a><span>|</span><a href=goodDetail.html>360手机N4</a><span>|</span><a href=goodDetail.html>360手机F4</a><span>|</span><a href=goodDetail.html>10000毫安移动电源</a>",
+		"href": "goodDetail.html"
+	},
+	"g7": {
+		"id": 0,
+		"title": "母婴玩具 ",
+		"info":"苹果官方MFi认证 ",
+		"pHtml": "<a href=goodDetail.html>360手机Q5</a><span>|</span><a href=goodDetail.html>360手机N4S</a><span>|</span><a href=goodDetail.html>360手机N4</a><span>|</span><a href=goodDetail.html>360手机F4</a><span>|</span><a href=goodDetail.html>10000毫安移动电源</a>",
+		"href": "goodDetail.html"
+	},
+	"g8": {
+		"id": 0,
+		"title": "360手机 ",
+		"info":"苹果官方MFi认证 ",
+		"pHtml": "<a href=goodDetail.html>360手机Q5</a><span>|</span><a href=goodDetail.html>360手机N4S</a><span>|</span><a href=goodDetail.html>360手机N4</a><span>|</span><a href=goodDetail.html>360手机F4</a><span>|</span><a href=goodDetail.html>10000毫安移动电源</a>",
+		"href": "goodDetail.html"
+	},
+	"g9": {
+		"id": 0,
+		"title": "360手机 ",
+		"info":"苹果官方MFi认证 ",
+		"pHtml": "<a href=goodDetail.html>360手机Q5</a><span>|</span><a href=goodDetail.html>360手机N4S</a><span>|</span><a href=goodDetail.html>360手机N4</a><span>|</span><a href=goodDetail.html>360手机F4</a><span>|</span><a href=goodDetail.html>10000毫安移动电源</a>",
+		"href": "goodDetail.html"
+	}
+	
+}
+]

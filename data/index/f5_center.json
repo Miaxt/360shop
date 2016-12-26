@@ -1,0 +1,56 @@
+[
+{
+	"g0": {
+		"id": 0,
+		"title": "DM手机U盘",
+		"info":"29.9元起轻松扩容",
+		"src": "../img/index/f2_center01.webp",
+		"href": "goodDetail.html"
+		
+		
+	},
+	"g1": {
+		"id": 0,
+		"title": "ORICO充电设备 ",
+		"info":"智能充电 快人一步",
+		"src": "../img/index/f2_center02.webp",
+		"href": "goodDetail.html"
+		
+		
+	},
+	"g2": {
+		"id": 0,
+		"title": "宜客莱旅行季 ",
+		"info":"手机配件拎着走",
+		"src": "../img/index/f2_center03.webp",
+		"href": "goodDetail.html"
+		
+		
+	},
+	"g3": {
+		"id": 0,
+		"title": "猎奇外接镜头 ",
+		"info":"让手机秒变单反",
+		"src": "../img/index/f2_center04.webp",
+		"href": "goodDetail.html"	
+	},
+	"g4": {
+		"id": 0,
+		"title": "QCY蓝牙耳机 ",
+		"info":"29.9元起无线畅享",
+		"src": "../img/index/f2_center05.webp",
+		"href": "goodDetail.html"
+	
+	}
+	,
+	"g5": {
+		"id": 0,
+		"title": "完胜朋友圈摄影大赛 ",
+		"info":"拍照神器29元起",
+		"src": "../img/index/f2_center06.webp",
+		"href": "goodDetail.html"
+		
+	}
+	
+}
+]

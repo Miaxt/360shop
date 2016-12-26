@@ -1,0 +1,39 @@
+body{font-family:"微软雅黑";
+	font-size:12px;
+	margin:0;
+	padding:0;
+	border:none;
+	background: #fff;	
+}
+html,div,p,span,form,legend,fieldset,h1,h2,h3,h4,h5,h6,hr,ul,li,ol,dl,dd,dt,br{
+	margin:0;padding:0;
+	border:none;
+}
+button,img,a,input,textarea,th,td,table,label{
+	margin:0;padding:0;
+}
+a{text-decoration:none;color:#000}
+a:hover{
+	cursor: pointer;
+}
+ul,li,ol{list-style:none}
+img{border:none}
+.clear{height:0;overflow:hidden;font-size:0;clear:both}
+body,html{height:100%}
+
+
+
+body{
+	width: 100%;
+	height: auto;
+	background: #f0f0f0;
+	overflow:scroll;
+	overflow-x:hidden;
+}
+select{
+	cursor: pointer;
+}
+option{
+	cursor: pointer;
+}
+

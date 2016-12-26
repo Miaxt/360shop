@@ -1,0 +1,158 @@
+/*footer开始*/
+#footer .banner-item{
+	width: 24.5%;
+	height: 60px;
+	float: left;
+	line-height: 60px;
+	border-right:solid 1px #ccc ;
+	position: relative;
+	margin-top:20px ;
+	
+}
+#footer .banner-item a{
+	margin-left: 80px;
+}
+.icon1{
+	color: #23AC38;
+	border: 2px solid #23AC38;
+	border-radius:20px ;
+	width: 36px;
+	height: 36px;
+	display: block;
+	font-weight: 400;
+	line-height: 36px;
+	vertical-align: top;
+	text-align: center;
+	position: absolute;
+	left: 10%;
+	top: 20%;
+}
+
+#footer{
+	width: 100%;
+	clear: both;
+	background: #fff;
+	height: auto;
+}
+#footer .foot-banner{
+
+	width: 1240px;
+	height: 60px;
+	font-size: 18px;
+	margin: 0 auto;
+	color: #302E33;
+}
+.foot-bannerw{
+	width: 100%;
+	height: 94px;
+	padding: 16px 0;
+	border-top: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+}
+.foot-containerw{
+	width: 100%;
+	height: 250px;
+	
+}
+.foot-container{
+	width: 1240px;
+	margin: 0 auto;
+	padding: 30px 0;
+	height: 190px;
+	
+}
+#footer .foot-con{
+	width: 16%;
+	float:left;
+}
+#footer .foot-con dt{
+	color: #302E33;
+	font-size: 16px;
+	line-height: 40px;
+}
+#footer .foot-con dd a{
+	color: #848484;
+	line-height: 30px;
+	position: relative;
+}
+#footer .weixin span,#footer .weibo span{
+	
+	position: absolute;
+	left: -50px;
+	top:-140px;
+	display: none;
+}
+#footer .weixin span img,#footer .weibo span img{
+	display: block;
+	width: 120px;
+	height: 120px;
+}
+#footer .foot-con dd a:hover{
+	text-decoration: underline;
+	color: #77BE24;
+}
+.footer-copyright{
+	width: 100%;
+	border-top: 1px solid #ccc;
+	color: #848484;
+	text-align: center;
+	padding: 30px 0;
+	line-height: 22px;
+	font-size: 12px;
+}
+/*footer部分结束*/
+/*右边导航*/
+#slidebar{
+	position: fixed;
+	bottom: 20px;
+	right: 0;
+	z-index: 300;
+}
+#slidebar li{
+	width: 40px;
+	height: 40px;
+/*	overflow: hidden;*/
+    position: ;
+    border: 1px solid #ccc;
+    cursor: pointer;
+/*    background: #fff url(../../img/common/rightbar.png) no-repeat 0 -120px;*/
+}
+#slidebar li a{
+	/*display: block;*/
+	font-size: 14px;
+	text-align: center;
+	display: none;
+}
+#slidebar .rtips {
+	position: relative;
+}
+#slidebar .rtips div{
+	position:absolute ;
+	left: -130px;
+	top:-80px;
+	width: 130px;
+	height: 168px;
+	display: none;
+	background: #fff;
+}
+#slidebar .rtips div p{
+	text-align: center;
+}
+#slidebar .rtips div p span{
+	color: red;
+}
+#slidebar li:hover a {
+    color: #fff;
+    display: block;
+    font-style: normal;
+    font-size: 14px;
+    text-align: center;
+    width: 30px;
+    background: #666;
+    display: block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+/*右边导航结束*/

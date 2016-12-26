@@ -1,0 +1,57 @@
+[
+{
+	"g0": {
+		"id": 0,
+		"title": "360手机N4S",
+		"info":"5000毫安时电池 可用两天",
+		"src": "../img/index/f360_center01.webp",
+		"href": "goodDetail.html",
+		"price": 1199
+		
+	},
+	"g1": {
+		"id": 0,
+		"title": "360手机N4全网通 ",
+		"info":"4GB内存 10核处理器",
+		"src": "../img/index/f360_center02.webp",
+		"href": "goodDetail.html",
+		"price": 999
+		
+	},
+	"g2": {
+		"id": 0,
+		"title": "360手机f4高配版 ",
+		"info":"3G+32GB 多色可选",
+		"src": "../img/index/f360_center03.webp",
+		"href": "goodDetail.html",
+		"price": 699
+		
+	},
+	"g3": {
+		"id": 0,
+		"title": "360酷跑蓝牙耳机 ",
+		"info":"亲肤材质 长续航 防脱落",
+		"src": "../img/index/f360_center04.webp",
+		"href": "goodDetail.html",
+		"price": 199
+	},
+	"g4": {
+		"id": 0,
+		"title": "360奇酷头戴式耳机 ",
+		"info":"可折叠 有线无线双连接 ",
+		"src": "../img/index/f360_center05.webp",
+		"href": "goodDetail.html",
+		"price": 129
+	}
+	,
+	"g5": {
+		"id": 0,
+		"title": "360奇酷移动电源 ",
+		"info":"进口芯片 名片大小 大容量",
+		"src": "../img/index/f360_center06.webp",
+		"href": "goodDetail.html",
+		"price": 69
+	}
+	
+}
+]

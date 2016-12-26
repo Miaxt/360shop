@@ -1,0 +1,292 @@
+body{
+	background: #fff;
+}
+/*top部分开始*/
+#top .top_right{
+	float: right;
+}
+#top ul li{
+	float: left;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 10px;
+	line-height: 36px;
+	color: #bfbfbf;
+}
+
+#top{
+	width: 100%;
+	height: auto;
+	background: #363636;
+	min-width: 800px;
+}
+.top_nav{
+	height: 36px;
+	width: 1240px;
+	margin: 0 auto;
+}
+.top_nav a{
+	color: #bfbfbf;
+}
+#top .top_nav li i{
+	display: block;
+	width: 22px;
+	height: 15px;
+	background:url(../../img/common/navtubiao.png) no-repeat -2px -268px;
+	position: absolute;
+	top: 10px;
+	left: 0;
+}
+#top .top_nav .phone{
+	width: 100px;
+	display: block;
+	height: 36px;
+	position: relative;
+	padding-left: 30px;
+}
+.top_nav a:hover{
+	color: #23ac38;
+}
+#logo{
+	width: 100%;
+	height: 118px;
+	background: #fff;
+	
+}
+#logo .logo_seach{
+	width: 1240px;
+	height: 118px;
+	position: relative;
+	margin: 0 auto;				
+}
+#logo .seach{
+	height: 40px;
+	line-height: 40px;
+	padding: 0 14px;
+	width: 434px;
+	border: 1px solid #23ac38;
+	position: absolute;
+	top:40px;
+	right: 270px;
+	outline: none;
+}
+#logo .seach:focus{
+	border: 1px solid #23ac38;
+}
+
+#logo .seach_button{
+	background: url(../../img/index/button_seach.PNG) no-repeat;
+	width: 72px;
+	height: 42px;
+	border: 1px solid #23ac38;
+	position: absolute;
+	padding: 0 14px;
+	top:40px;
+	right: 200px;
+}
+#logo .myShopCar{
+	width: 158px;
+	height: 42px;
+	position: absolute;
+	right: 0px;
+	top: 40px;
+	text-align: center;
+	line-height: 42px;
+}
+#logo .myShopCar{
+	border: solid 1px #ccc;
+}
+#logo a:hover{
+	color:#23ac38 ;
+}
+#logo .logo_a{
+	display: inline-block;
+	width: 150px;
+	height: 118px;
+	line-height: 118px;
+	text-align: center;
+}
+#logo .logo_a img{
+	width: 150px;
+	height: 40px;
+	margin-top:40px ;
+}
+#logo .logo_nav{
+	width: 586px;
+	height: 21px;
+	position: absolute;
+	padding: 10px 0;
+	top:80px ;
+	right: 150px;
+}
+#logo .logo_nav a{
+	margin-right:10px ;
+	color: #848484;
+}
+#logo .logo_nav a:hover{
+	color: red;
+}
+#logo div ul li{
+	list-style: none;
+	padding: 8px;
+	color: gray;
+	border-bottom: 1px solid gray;
+	cursor: pointer;
+}
+#logo div div{
+	width: 462px;
+	position: absolute;
+	top:80px;
+	right: 271px;
+	border: 1px solid #aaa;
+	border-top: 0;
+	border-bottom: 0;
+	background: #FFFFFF;
+	z-index: 1000;
+}
+/*购物车*/
+.myShopCar .icon{
+    background: url(../../img/common/navtubiao.png) 0 0 no-repeat;
+    display: inline-block;
+    height: 15px;
+    margin: 0 6px -3px 7px;
+    width: 20px;
+
+}
+/*无缝轮播*/
+#lunbo{width:1240px; height:284px; border:1px solid black; position:relative; margin:0px auto;overflow: hidden;}
+#lunbo .box {height:284px; list-style:none; position:absolute; top:0; left:0;}
+#lunbo li { width:1240px; height:284px; float:left; cursor: pointer}
+#lunbo .nav {width:100%; height:20px; padding:5px 0; position:absolute; bottom:0; background:black;}
+#lunbo .nav div {width:20px; height:20px; border-radius:10px; background:white; margin-left:10px; float:left; cursor: pointer;}
+#lunbo .nav div.active {background:red;}
+#lunbo .prev, .next {width:50px; height:50px; position:absolute; top:0; bottom:0; margin:auto 0; background:black; cursor: pointer; font:50px/50px "宋体"; color:white; text-align: center; opacity: 0.4;filter: alpha(opacity:40);}
+#lunbo .next {right:0px;}
+#lunbo img{ width: 1240px;}
+/*弹窗提示框*/
+/**/
+#tanchuang {
+	width: 100%;
+	height: 100%;
+	display: none;
+	z-index: 200000;
+}
+#tanchuang .mod-dialog-bg {
+	display: block;
+    background: #000;
+    opacity: .5;
+    filter: alpha(opacity=50);
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 200001;
+}
+#tanchuang .mod-dialog {
+	display: block;
+	background-color: #fff;
+	border: solid 1px #82c92f;
+	min-width: 300px;
+	*padding-top: 27px;
+	position: fixed;
+	z-index: 200002;	
+	left:50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -150px;
+}
+#tanchuang .mod-pop {
+	background: #fff;
+	border: solid 1px #a1a1a1;
+	-webkit-box-shadow: 0 0 5px #a1a1a1;
+	-moz-box-shadow: 0 0 5px #a1a1a1;
+	box-shadow: 0 0 5px #a1a1a1;
+	font-size: 14px;
+	height: 142px;
+	position: absolute;
+	width: 276px;
+	z-index: 1000
+}
+#tanchuang .mod-fixed-console {
+	padding: 10px 0
+}
+#tanchuang .mod-dialog .dialog-close {
+	background: url(../../img/common/tanchuang.png) no-repeat 0 0;
+	height: 21px;
+	position: absolute;
+	right: 10px;
+	top: 0;
+	width: 43px
+}
+
+#tanchuang .mod-dialog .dialog-main {
+	font-size: 14px;
+	padding: 20px;
+	text-align: center
+}
+
+#tanchuang .mod-dialog .dialog-content {
+	font-size: 14px;
+	line-height: 24px
+}
+#tanchuang .mod-dialog .content-title {
+	background: url(../../img/common/ts.png) 30px 20px no-repeat;
+	font-size: 18px;
+	line-height: 24px;
+	padding: 40px 0 40px 155px
+}
+#tanchuang .mod-dialog .dialog-console {
+	padding-top: 20px
+}
+#tanchuang .mod-dialog .dialog-title {
+	padding-left: 10px
+}
+#tanchuang .mod-dialog .dialog-nav {
+	background: #82c92f;
+	color: #fff;
+	font-weight: 700;
+	font-size: 12px;
+	font-family: "\5b8b\4f53";
+	height: 27px;
+	*left: 0;
+	line-height: 27px;
+	*position: absolute;
+	*top: -27px;
+	*width: 100%
+}
+#tanchuang .mod-dialog .dialog-content {
+    font-size: 14px;
+    line-height: 24px;
+}
+#tanchuang .mod-dialog .dialog-console .console-btn-confirm {
+	background-position: 0 -24px;
+	color: #fff
+}
+#tanchuang .mod-dialog .dialog-console {
+	padding-top: 20px
+}
+#tanchuang .mod-dialog .dialog-console .console-btn-cancel {
+	background-position: 0 -62px;
+	color: #999;
+	margin-left: 12px
+}
+#tanchuang .mod-dialog .dialog-console a:hover {
+	text-decoration: none
+}
+#tanchuang .mod-dialog .dialog-console a {
+    background: url(../../img/common/tanchuang.png) no-repeat 0 -22px;
+    display: inline-block;
+    font-size: 16px;
+    height: 36px;
+    line-height: 34px;
+    text-align: center;
+    width: 120px;
+}
+/*弹窗提示框*/
+/*购物车位置*/
+/*#logo #end{
+	position: fixed;
+	right: 20px;
+	top: 20px;
+}*/

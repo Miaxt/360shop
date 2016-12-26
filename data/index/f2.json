@@ -1,0 +1,80 @@
+[
+{
+	"g0": {
+		"id": 0,
+		"title": "DM苹果手机U盘 ",
+		"info":"苹果官方MFi认证 ",
+		"src": "../img/index/f3_right101.webp",
+		"href": "goodDetail.html",
+		"price": 199,
+		"prices": 269
+	},
+	"g1": {
+		"id": 0,
+		"title": "太阳能充电宝20000毫安  ",
+		"info":"露营灯 防摔防滑",
+		"src": "../img/index/f3_right102.webp",
+		"href": "goodDetail.html",
+		"price": 79,
+		"prices": 98
+		
+	},
+	"g2": {
+		"id": 0,
+		"title": "大管家加密U盘128G ",
+		"info":"苹果安卓电脑三用  ",
+		"src": "../img/index/f3_right103.webp",
+		"href": "goodDetail.html",
+		"price":398
+		
+	},
+	"g3": {
+		"id": 0,
+		"title": "宜客莱创意懒人手机支架D1  ",
+		"info":"解放双手 懒人神器 ",
+		"src": "../img/index/f3_right104.webp",
+		"href": "goodDetail.html",
+		"price": 14.9,
+		"prices":29.9
+	}
+	
+},
+{
+	"g0": {
+		"id": 0,
+		"title": "360卡防  ",
+		"info":"保护闪付银行卡信息安全 ",
+		"src": "../img/index/f3_right201.webp",
+		"href": "goodDetail.html",
+		"price": 269,
+		"prices": 369
+		
+	},
+	"g1": {
+		"id": 0,
+		"title": "卡乐多iphone6双卡双待保护壳 ",
+		"info":"自带电话卡槽   ",
+		"src": "../img/index/f3_right202.webp",
+		"href": "goodDetail.html",
+		"price": 169,
+		"prices": 199
+	},
+	"g2": {
+		"id": 0,
+		"title": "SOLOVE A8 20000毫安移动电源  ",
+		"info":"超薄 大容量   ",
+		"src": "../img/index/f3_right203.webp",
+		"href": "goodDetail.html",
+		"price": 168
+	},
+	"g3": {
+		"id": 0,
+		"title": "U蜜智能密码管家  ",
+		"info":"指纹加密 安全存储 ",
+		"src": "../img/index/f3_right204.webp",
+		"href": "goodDetail.html",
+		"price": 699
+	}
+	
+}
+]

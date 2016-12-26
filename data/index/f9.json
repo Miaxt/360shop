@@ -1,0 +1,75 @@
+[
+{
+	"g0": {
+		"id": 0,
+		"title": "360手机奇酷青春版",
+		"info":"金属机身 安全360OS",
+		"src": "../img/index/f2_right101.webp",
+		"href": "goodDetail.html",
+		"price": 699,
+		"prices": 999
+	},
+	"g1": {
+		"id": 0,
+		"title": "360手机奇酷旗舰版 ",
+		"info":"双1300万摄像头 金属机身 ",
+		"src": "../img/index/f2_right102.webp",
+		"href": "goodDetail.html",
+		"price": 999
+		
+	},
+	"g2": {
+		"id": 0,
+		"title": "360 金属朋克耳机 ",
+		"info":"简约设计 舒适佩戴 三段式腔体 ",
+		"src": "../img/index/f2_right103.webp",
+		"href": "goodDetail.html",
+		"price": 99
+		
+	},
+	"g3": {
+		"id": 0,
+		"title": "360三口USB快充 ",
+		"info":"QC2.0快充手机 ",
+		"src": "../img/index/f2_right104.webp",
+		"href": "goodDetail.html",
+		"price": 99
+	}
+	
+},
+{
+	"g0": {
+		"id": 0,
+		"title": "5000毫安时移动电源 ",
+		"info":"重量仅136g 轻松塞进钱包 ",
+		"src": "../img/index/f2_right201.webp",
+		"href": "goodDetail.html",
+		"price": 59
+	},
+	"g1": {
+		"id": 0,
+		"title": "N4液态硅胶保护壳 ",
+		"info":"紧密贴合 抗震防水耐脏 ",
+		"src": "../img/index/f2_right202.webp",
+		"href": "goodDetail.html",
+		"price": 79
+	},
+	"g2": {
+		"id": 0,
+		"title": "N4 TPU保护壳 ",
+		"info":"孔位精准 柔韧 不留指纹 ",
+		"src": "../img/index/f2_right203.webp",
+		"href": "goodDetail.html",
+		"price": 19.9
+	},
+	"g3": {
+		"id": 0,
+		"title": "手机f4智能视窗皮套 ",
+		"info":"个人性表盘 灵活的电话信息功能 ",
+		"src": "../img/index/f2_right204.webp",
+		"href": "goodDetail.html",
+		"price": 25
+	}
+	
+}
+]

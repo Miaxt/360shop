@@ -1,0 +1,376 @@
+body{
+	background: #fff;
+}
+.gCart {
+	border: 1px solid #DDD;
+	margin: 19px auto 29px;
+	width: 1240px
+}
+
+.gCart .hd {
+	background: #FFF;
+	border-bottom: 1px solid #DDD;
+	height: 50px;
+	line-height: 50px;
+	/ / margin-bottom: 20 px;
+	text-indent: 20px
+}
+
+.wrap_row {
+	border-bottom: 1px dashed #eee
+}
+
+.icon_zp {
+	background-color: #F95E38;
+	color: #fff
+}
+
+.icon_zp,
+.icon_zp_no {
+	border-radius: 2px;
+	display: inline-block;
+	padding: 2px 5px
+}
+
+.icon_zp_no {
+	background-color: #ededed;
+	color: #333
+}
+
+.zp_title {
+	margin: 6px 0 2px
+}
+
+.zp_chose {
+	color: #c00;
+	cursor: pointer
+}
+
+.zp_info {
+	line-height: 16px;
+	overflow: hidden;
+	padding-left: 15px;
+	text-align: left
+}
+
+.row_list {
+	background-color: #F5F5F5
+}
+
+.wrap_zp {
+	margin-bottom: 15px;
+	margin-top: -15px;
+	position: relative
+}
+
+.zp_sanjiao {
+	border: 15px solid #fff;
+	border-bottom: 15px solid #F5F5F5;
+	height: 0;
+	left: 67px;
+	position: absolute;
+	width: 0
+}
+
+.zp_space {
+	height: 30px
+}
+
+.dn {
+	display: none
+}
+
+.wrap_row:last-child {
+	border-bottom: 0
+}
+
+.row_list .r3 {
+	font-size: 16px
+}
+
+.cartList .bd .row {
+	border-bottom: 0
+}
+
+.gCart .bd {
+	background: #FFF;
+	padding: 15px
+}
+
+.cartList .hd {
+	background: #82C92F;
+	color: #FFF;
+	font-size: 12px;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 0;
+	padding: 0 15px;
+	text-align: left
+}
+
+.cartList .col1 {
+	_display: inline;
+	float: left;
+	text-indent: 8px;
+	width: 451px
+}
+
+.cartList .col2 {
+	width: 192px
+}
+
+.cartList .col2,
+.cartList .col3 {
+	float: left;
+	text-align: center;
+	text-indent: 0
+}
+
+.cartList .col3 {
+	width: 162px
+}
+
+.cartList .col4 {
+	width: 131px
+}
+
+.cartList .col4,
+.cartList .col5 {
+	float: left;
+	text-align: center;
+	text-indent: 0
+}
+
+.cartList .col5 {
+	width: 213px
+}
+
+.cartList .bd {
+	border: 1px #EEE solid;
+	border-top: 0;
+	padding: 0
+}
+
+.gCart .hd h3 {
+	color: #000;
+	font-weight: 400;
+	font-size: 18px
+}
+
+.gCart .cartEmpty {
+	background: url(../img/shopCar/cartEmpty.jpg) no-repeat;
+	height: 268px;
+	width: 900px
+}
+
+.gCart .cartEmpty a.toShoping,
+.gCart .cartEmpty a.toShoping:link {
+	background: url(../img/shopCar/shop.png) 0 -1934px no-repeat;
+	float: left;
+	height: 40px;
+	margin-left: 322px;
+	margin-top: 140px;
+	width: 158px
+}
+
+.gCart {
+	border: 1px solid #DDD;
+	margin: 19px auto 29px;
+	width: 1240px
+}
+
+.cartList .bd .row .item-img {
+	float: left;
+	height: 60px;
+	overflow: hidden;
+	width: 60px;	
+}
+
+.gdetail .trmod .hd h3 {
+	color: #333;
+	font-size: 16px;
+	font-weight: 400;
+	text-indent: 10px
+}
+.item-namexx{
+	overflow: hidden;
+}
+.cartList .bd .row .r1 {
+	_display: inline;
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	text-align: left;
+	width: 490px
+}
+
+.cartList .bd .row .item-name {
+	color: #666;
+	float: left;
+	font-size: 14px;
+	line-height: 14px;
+	margin-left: 15px;
+	text-align: left;
+	width: 310px
+}
+
+.cartList .bd .row .r2 {
+	color: #000;
+	float: left;
+	font-size: 18px;
+	height: 60px;
+	line-height: 60px;
+	width: 152px
+}
+
+.cartList .bd .row .r3 {
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	width: 162px
+}
+
+.cartList .bd .row .r4 {
+	color: #FF7800;
+	float: left;
+	font-size: 18px;
+	height: 60px;
+	line-height: 60px;
+	width: 131px
+}
+
+.cartList .bd .row .r5 {
+	float: left;
+	height: 60px;
+	line-height: 60px;
+	width: 213px
+}
+
+.cartList .bd .row .r2 span,
+.cartList .bd .row .r4 span {
+	font-family: arial
+}
+
+.cartList .bd .row .r5 a,
+.cartList .bd .row .r5 a:link {
+	color: #666;
+	font-size: 12px;
+	text-decoration: none
+}
+
+.cartList .gcIpt {
+	float: none;
+	height: 20px;
+	margin-top: 6px;
+	*margin-top: 0;
+	text-align: center
+}
+
+.cartList .bd .nobdr {
+	border: 0
+}
+
+.cartList a.decrement,
+.cartList a.decrement:link {
+	background: url(../img/shopCar/shopadd.png) 0 0 no-repeat;
+	display: inline-block;
+	height: 20px;
+	width: 20px
+}
+
+.cartList a.increment,
+.cartList a.increment:link {
+	background: url(../img/shopCar/shopadd.png) 0 -40px no-repeat;
+	display: inline-block;
+	height: 20px;
+	width: 20px
+}
+
+.cartList .errTip {
+	color: #FF1F01;
+	display: none;
+	font-size: 12px
+}
+
+.cartList .gAmount {
+	color: #000;
+	font-size: 16px;
+	font-weight: 700;
+	margin: 40px 0 25px;
+	text-align: right
+}
+
+.cartList .bd .row {
+	border-bottom: 1px #EEE dashed;
+	height: 60px;
+	line-height: 60px;
+	margin-bottom: -1px;
+	padding: 15px;
+	text-align: center
+}
+
+.cartList .btn {
+	margin-bottom: 15px;
+	text-align: right
+}
+
+.cartList .gcIpt input {
+	background: #F2F2F2;
+	border: 1px #E6E6E6 solid;
+	color: #000;
+	font-family: arial;
+	font-size: 16px;
+	height: 20px;
+	line-height: 18px;
+	line-height: 20 px\8;
+	margin: 0 5px;
+	text-align: center;
+	vertical-align: 5px;
+	vertical-align: 4px \0;
+	*vertical-align: 0;
+	_vertical-align: -3px;
+	width: 50px
+}
+
+.cartList .gAmount span {
+	color: #FF8301;
+	font-size: 36px;
+	font-weight: 700
+}
+
+.cartList .gcIpt input:focus {
+	outline: none
+}
+
+.cartList .btn a.b1,
+.cartList .btn a.b1:link,
+.cartList .btn a.b1:hover {
+	background: #F6F6F6;
+	border: 1px #EFEFEF solid;
+	border-radius: 5px;
+	color: #6F6F6F;
+	display: inline-block;
+	font-size: 18px;
+	height: 36px;
+	line-height: 36px;
+	margin-right: 12px;
+	text-align: center;
+	text-decoration: none;
+	width: 138px
+}
+
+.cartList .btn a.b2,
+.cartList .btn a.b2:link,
+.cartList .btn a.b2:hover {
+	background: #FF8301;
+	border: 1px #EFEFEF solid;
+	border-radius: 5px;
+	color: #FFF;
+	display: inline-block;
+	font-size: 18px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	text-decoration: none;
+	width: 140px
+}
